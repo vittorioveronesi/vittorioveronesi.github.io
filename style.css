@@ -1,0 +1,177 @@
+html{
+    font-family: 'IBM Plex Mono', monospace;
+    letter-spacing: 0.5px;
+    scroll-behavior: smooth;
+} 
+
+body {
+    margin: 0;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #c8c8c8;
+    margin-bottom: 20px;
+}
+
+.navbar a {
+    float: left;
+    margin-left: 30px;
+    font-size: 20px;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: #00c8c8;
+}
+
+.rightMenu {
+    float: right;
+    margin-right: 30px;
+}
+
+#contact {
+    position: fixed; /* or absolute */
+    top: 93%;
+    left: 37px;
+}
+
+.row{
+    margin: auto;
+    width: 97%;
+}
+
+.column {
+  float: left;
+  width: 20%;
+  padding: 20px;
+}
+
+.columnAbout {
+    float: left;
+    width: 50%;
+    padding: 20px;
+  }
+  
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media screen and (max-width: 850px) {
+    .column {
+        width: 100%;
+    }
+
+    .columnAbout {
+        width: 100%;
+    }
+
+    .rightMenu {
+        margin-top: -10px;
+        float: left;
+    }
+} 
+
+dl {
+    margin-bottom: 80px;
+}
+
+.noteTitle {
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+    border-bottom: 0.12em solid;
+}
+
+.noteTitle:hover {
+    color: #00c8c8;
+}
+
+
+/*dd{
+    margin: 0;
+}*/
+
+.note {
+    margin-bottom: 40px;
+    width: 100%;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    /*font-family: 'VT323', monospace;*/
+    color: #484bc1;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.medium{
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+.aboutImg{
+    width: 70%;
+    display: block;
+    margin: 0 auto; 
+}
+
+p {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 16px;
+    line-height: 1.5;
+    width: 50%;
+}
+
+#about{
+     font-family: 'IBM Plex Mono', monospace;
+     font-size: 20px;
+     line-height: 1.5;
+     width: 100%;
+}
+ 
+
+* {
+    box-sizing: border-box;
+} 
+
+
+/*Projects*/
+
+.projects{
+    background-color:  #c8c8c8;;
+}
+
+.projectImg{
+    width: 100%;
+    display: block;
+    margin: 0 auto 37px; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
