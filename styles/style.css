@@ -34,7 +34,7 @@ body {
     font-weight: bold;
     padding-inline-end: 50px;
     text-underline-position: under;
-    margin-top: -8px;
+    margin-top: -4px;
 }
 
 
@@ -116,6 +116,10 @@ body {
     .footer2 {
         float: left;
     }
+
+    .footer a {
+        margin-top: 10px;
+    }
 }
 
 dl {
@@ -150,7 +154,6 @@ li {
 a {
     /*font-family: 'VT323', monospace;*/
     color: #da5622;
-    line-height: 1.5;
     text-underline-position: under;
 
 }
