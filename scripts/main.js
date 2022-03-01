@@ -1,77 +1,74 @@
 //code for images
-let myImage = document.querySelector('#a1');
-let myImage2 = document.querySelector('#b1');
-let myImage3 = document.querySelector('#c1');
-let myImage4 = document.querySelector('#d1');
-let myImage5 = document.querySelector('#e1');
-let myImage6 = document.querySelector('#snake1');
-let myImage7 = document.querySelector('#comunorto1');
 
-myImage.onmouseover = function() {
-    let mySrc = myImage.getAttribute('src');
-    if(mySrc === 'images/1.jpg') {
-        myImage.setAttribute ('src', 'images/2.jpg');
-    } else {
-        myImage.setAttribute ('src', 'images/1.jpg');
-    }
+function setNewImageMat(){
+    document.getElementById("a1").src = "images/2.jpg";
 }
 
-myImage2.onmouseover = function() {
-    let mySrc = myImage2.getAttribute('src');
-    if(mySrc === 'images/b1.jpg') {
-        myImage2.setAttribute ('src', 'images/b2.jpg');
-    } else {
-        myImage2.setAttribute ('src', 'images/b1.jpg');
-    }
+function setOldImageMat(){
+    document.getElementById("a1").src = "images/1.jpg";
+}
+//________________________________________________________________
+
+function setNewImageDarwin(){
+    document.getElementById("b1").src = "images/b2.jpg";
 }
 
-myImage3.onmouseover = function() {
-    let mySrc = myImage3.getAttribute('src');
-    if(mySrc === 'images/c1.png') {
-        myImage3.setAttribute ('src', 'images/c2.png');
-    } else {
-        myImage3.setAttribute ('src', 'images/c1.png');
-    }
+function setOldImageDarwin(){
+    document.getElementById("b1").src = "images/b1.jpg";
+}
+//________________________________________________________________
+
+
+function setNewImageDrive(){
+    document.getElementById("c1").src = "images/c2small.jpg";
 }
 
-myImage4.onmouseover = function() {
-    let mySrc = myImage4.getAttribute('src');
-    if(mySrc === 'images/d1.jpg') {
-        myImage4.setAttribute ('src', 'images/d2.jpg');
-    } else {
-        myImage4.setAttribute ('src', 'images/d1.jpg'); 
-    }
+function setOldImageDrive(){
+    document.getElementById("c1").src = "images/c1small.jpg";
+}
+//________________________________________________________________
+
+function setNewImageEcto(){
+    document.getElementById("d1").src = "images/d2.jpg";
 }
 
-myImage5.onmouseover = function() {
-    let mySrc = myImage5.getAttribute('src');
-    if(mySrc === 'images/e1.png') {
-        myImage5.setAttribute ('src', 'images/e2.png');
-    } else {
-        myImage5.setAttribute ('src', 'images/e1.png'); 
-    }
+function setOldImageEcto(){
+    document.getElementById("d1").src = "images/d1.jpg";
+}
+//________________________________________________________________
+
+function setNewImage17(){
+    document.getElementById("e1").src = "images/e2.png";
 }
 
-myImage6.onmouseover = function() {
-    let mySrc = myImage6.getAttribute('src');
-    if(mySrc === 'images/snake1.png') {
-        myImage6.setAttribute ('src', 'images/snake2.png');
-    } else {
-        myImage6.setAttribute ('src', 'images/snake1.png'); 
-    }
+function setOldImage17(){
+    document.getElementById("e1").src = "images/e1.png";
+}
+//________________________________________________________________
+
+function setNewImageSnake(){
+    document.getElementById("snake1").src = "images/snake2.png";
 }
 
-myImage7.onmouseover = function() {
-    let mySrc = myImage7.getAttribute('src');
-    if(mySrc === 'images/comunorto1.jpg') {
-        myImage7.setAttribute ('src', 'images/comunorto2.jpg');
-    } else {
-        myImage7.setAttribute ('src', 'images/comunorto1.jpg'); 
-    }
+function setOldImageSnake(){
+    document.getElementById("snake1").src = "images/snake1.png";
+}
+//________________________________________________________________
+
+function setNewImage(){
+    document.getElementById("roll1").src = "images/sito_comunorto2.jpg";
 }
 
+function setOldImage(){
+    document.getElementById("roll1").src = "images/roll.png";
+}
+//________________________________________________________________
 
+function setNewImagePutto(){
+    document.getElementById("putto").src = "images/putto.jpg";
+}
 
-
-
-
+function setOldImagePutto(){
+    document.getElementById("putto").src = "images/putto2.jpg";
+}
+//________________________________________________________________

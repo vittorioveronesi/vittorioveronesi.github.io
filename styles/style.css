@@ -50,6 +50,7 @@ body {
     margin-left: 30px;
     font-size: 20px;
     color: black;
+    font-weight: bold;
     text-align: left;
     padding: 14px 16px;
     text-decoration: none;
@@ -93,6 +94,14 @@ body {
     content: "";
     display: table;
     clear: both;
+}
+
+#title {
+    margin-top: -10px;
+    font-weight:bold;
+    color: #f17034;
+    text-underline-position: under;
+    font-size: 290%;
 }
 
 @media screen and (max-width: 850px) {
@@ -168,6 +177,7 @@ a:hover {
     margin: 0 auto;
 }
 
+
 .aboutImg {
     width: 70%;
     display: block;
@@ -205,4 +215,21 @@ p {
     width: 100%;
     display: block;
     margin: 0 auto 37px;
+}
+
+.projectImgSmall {
+    width: 43%;
+    display: padding-inline-end;
+    margin: 20px 20px 20px;
+}
+
+.title_project{
+    font-weight: bold;
+    font-size: 28px;
+    margin-bottom: -10;
+}
+
+.smallText{
+    margin-top: -18px;
+    margin-bottom: 40px;
 }
